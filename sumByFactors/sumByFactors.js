@@ -12,8 +12,8 @@ The third tuple will contain 5, which is a prime factor of 15 but not 12, and th
 
 sumByFactors([15, 30, -45]) //=> return [[2, 30], [3, 0], [5, 0]]
 The prime factors of 15 are 3 and 5. The prime factors of 30 are 2, 3 and 5. The prime factor of -45 are 3 and 5.
-The first tuple will contain 2, which is a prime factor of 30 but not 15 and -35, and the sum of 30.
-The second tuple will contain 3, which is a prime factor of 15, 30 and -45, and the sum is 0.
+The first tuple will contain 2, which is a prime factor of 30 but not 15 and -45, and the sum of 30.
+The second tuple will contain 3, which is a prime factor of 15, 30 and -45, and the sum of 0.
 The third tuple will contain 5, which is a prime factor of 15, 30 and -45, and the sum of 0. 
 */
 

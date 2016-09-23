@@ -1,7 +1,7 @@
 /*
 Implement a function that takes two arguments, an array and a boolean (default is true).
-Return the array with all of the zeros to the right if the boolean is true else to the 
-left if the boolean is false, preserving the order of the other elements.
+Return the array with all of the zeroes to the right if the boolean is true otherwise 
+move all the zeroes to the left, preserving the order of the other elements.
 
 
 Example:
@@ -20,7 +20,7 @@ moveZeros(arrNum) //=> returns [12, 10, 8, 12, 7, 6, 4, 10, 12, 0, 0, 0, 0]
 
 Extra Credits:
 1. Implement the function using reduce.
-2. Implement the fucntion using recursion without helper function.
+2. Implement the function using recursion without a helper function.
 */
 
 var moveZeroes = function(/*argument(s)*/) {
