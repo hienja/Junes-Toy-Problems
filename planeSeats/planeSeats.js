@@ -14,7 +14,7 @@ amount of seats needed. All of the seats are equally wide and each aisle has the
 width as a single seat. Return the arrangement of the seats that maximizes aisle seats
 in the form of a string where seats and aisles are represented by 's' and '_' respectively.
 If there are multiple arrangements, find the smallest lexicographical arrangement (the
-'_' character before 's' in the lexicographical order).
+'_' character comes before 's' in the lexicographical order).
 
 
 Examples:
@@ -30,5 +30,5 @@ There are many arrangements with the same maximum number of aisle seats, but thi
 planeSeats(11, 7) //=> returns "_ss_ss_ss_s" 
 */
 
-var planeSeats = function(/*argument(s)*/) {
+var planeSeats = function (/*argument(s)*/) {
 };

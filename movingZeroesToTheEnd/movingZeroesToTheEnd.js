@@ -23,5 +23,5 @@ Extra Credits:
 2. Implement the function using recursion without a helper function.
 */
 
-var moveZeroes = function(/*argument(s)*/) {
+var moveZeroes = function (/*argument(s)*/) {
 };

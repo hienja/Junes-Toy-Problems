@@ -17,5 +17,5 @@ The second tuple will contain 3, which is a prime factor of 15, 30 and -45, and 
 The third tuple will contain 5, which is a prime factor of 15, 30 and -45, and the sum of 0. 
 */
 
-var sumByFactors = function(/*argument(s)*/) {
+var sumByFactors = function (/*argument(s)*/) {
 };

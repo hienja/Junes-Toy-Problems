@@ -28,3 +28,9 @@ describe('planeSeats', function() {
     expect(planeSeats(11, 7)).to.equal('_ss_ss_ss_s');
   });
 });
+
+describe('longestMonotonicSequence', function() {
+  it('should return an array with names', function() {
+    expect(longestMonotonicSequence([{name: 'Bob', SAT: 1400, GPA: 3.5}, {name: 'Steven', SAT: 1600, GPA: 4.0}, {name: 'Tony', SAT: 1500, GPA: 3.2}, {name: 'John', SAT: 1450, GPA: 3.3}])).to.eql(['Bob', 'John', 'Tony']);
+  });
+});
